@@ -289,13 +289,13 @@ def start_phone_tracer(target_phone):
 def test_state_detection():
     """Test function to demonstrate state detection for various countries"""
     test_cases = [
-        "+1 212 555 0100",    # New York, USA
-        "+1 416 555 0100",    # Toronto, Canada  
-        "+44 20 7946 0958",   # London, UK
-        "+91 80 5555 0100",   # Bangalore, India
-        "+61 2 5550 1000",    # Sydney, Australia
-        "+49 30 5555 0100",   # Berlin, Germany
-        "+33 1 5555 0100",    # Paris, France
+        "+1 123 456 7890",    # New York, USA
+        "+1 123 456 7890",    # Toronto, Canada  
+        "+44 12 3456 7890",   # London, UK
+        "+91 12 3456 7890",   # Bangalore, India
+        "+61 1 2345 6789",    # Sydney, Australia
+        "+49 12 3456 7890",   # Berlin, Germany
+        "+33 1 2345 6789",    # Paris, France
     ]
     
     print("\n🧪 Testing State/Province Detection...")
@@ -314,11 +314,11 @@ def main():
     """Main function with example usage"""
     # Example phone numbers from different countries
     test_numbers = [
-        "+91 76048 65211",    # Indian number
-        "+1 234 567 8900",    # US number
-        "+44 20 7946 0958",   # UK number
-        "+61 2 5550 1000",    # Australian number
-        "+49 30 5555 0100",   # German number
+        "+91 1234567890",    # Indian number
+        "+1 123 456 7890",    # US number
+        "+44 12 3456 7890",   # UK number
+        "+61 1 2345 6789",    # Australian number
+        "+49 12 3456 7890",   # German number
     ]
     
     print("🌍 Enhanced Phone Tracer with State Detection")
@@ -345,3 +345,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
